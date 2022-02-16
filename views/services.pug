@@ -1,0 +1,65 @@
+extends base.pug
+
+block title 
+    title Our Services! 
+
+block script 
+
+block style 
+    style 
+        include ../static/serviceStyle.css
+        include ../static/style.css
+
+block content 
+    
+    h1 Services We Offer 
+
+    section#servicesSection 
+
+        div.servicesCardContainer
+
+            div.serviceCard
+                h2 Dance Classes
+                div.servicesCardContentContainer
+                    div.servicesCard-img
+                        img(src="/static/images/services-img1.jpeg", alt="Dance Classes")
+                    div.servicesCard-content
+                        p We offer the best training for dance in the world from best instructors and mentors in this field book your classes now!
+                div.link-container        
+                    a(href="/services/book") 
+                        | Book Now!
+
+            div.serviceCard
+                h2 Live Performances
+                div.servicesCardContentContainer
+                    div.servicesCard-img
+                        img(src="/static/images/services-img2.jpeg", alt="Live Performances")
+                    div.servicesCard-content
+                        p Our Students also give live dance performances. So, to make your event more iconic, you can book a performance by our champs now! 
+                div.link-container        
+                    a(href="/services/book") 
+                        | Book Now!
+
+            div.serviceCard
+                h2 Personal Classes
+                div.servicesCardContentContainer
+                    div.servicesCard-img
+                        img(src="/static/images/services-img3.jpg", alt="Personal Classes")
+                    div.servicesCard-content
+                        p If you want personal classes, you can also book them and our instructor will be entirely available and focused on you!
+                div.link-container        
+                    a(href="/services/book") 
+                        | Book Now!
+
+            div.serviceCard
+                h2 Yoga Classes
+                div.servicesCardContentContainer
+                    div.servicesCard-img
+                        img(src="/static/images/services-img4.jpg", alt="Yoga Classes")
+                    div.servicesCard-content
+                        p Yes, We offer yoga classes too because we believe that yoga is essential for both health and dancing it makes your body flexible, So what are you waiting for book this special class now! 
+                div.link-container        
+                    a(href="/services/book") 
+                        | Book Now!
+                     
+

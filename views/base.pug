@@ -1,0 +1,22 @@
+doctype html 
+html 
+    head 
+        block title  
+        block script 
+        block style 
+    body 
+        nav#navBar
+            ul 
+                div#logo
+                    img(src="/static/images/logo.png")
+                    | PDA 
+                li #[a(href="/") Home] 
+                li #[a(href="/about") About] 
+                li #[a(href="/services") Services] 
+                li #[a(href="/classes") Class Info] 
+                li #[a(href="/contact") Contact us] 
+
+        block content 
+
+        footer#footer 
+            p Copyright &copy puneetdanceacademy.com | All rights reserved

@@ -1,0 +1,64 @@
+
+extends base.pug
+
+block title 
+    title Puneet's Dance Academy 
+
+block script 
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection 
+        h2 Welcome to Puneet's Dance Academy 
+        br
+        h3 Live to Dance!
+
+    section#missionSection 
+        h2 Our Missions
+        div.cardContainer
+            div.card
+                h3 Dance Perfection 
+                div.card-content-box
+                    div.card-img
+                        img(src="/static/images/bg1.png")
+                    div.card-content
+                        p   Perfect the art of dance with Puneet's dance academy!
+
+            div.card
+                h3 Dance the way you like
+                div.card-content-box
+                    div.card-img
+                        img(src="/static/images/bg2.png")
+                    div.card-content
+                        p   Choose your own style and rock the floor as you want!
+
+            div.card
+                h3 Best Teaching for Dance 
+                div.card-content-box
+                    div.card-img
+                        img(src="/static/images/bg3.png")
+                    div.card-content
+                        p   We have world's best mentors to guide you and carve a perfect dancer out of you!
+
+            div.card
+                h3 Explore on your own 
+                div.card-content-box
+                    div.card-img
+                        img(src="/static/images/bg4.png")
+                    div.card-content
+                        p   Learn and explore on your own you are completely free to develop your own styles!
+
+    section#sponsorsSection 
+        h2 Our Sponsors  
+        div#sponsors
+            img(src="/static/images/logo1.png", alt="Apple Logo", class="spImages")
+            img(src="/static/images/logo2.png", alt="Microsoft Logo", class="spImages")
+            img(src="/static/images/logo3.png", alt="Amazon Logo", class="spImages")
+            img(src="/static/images/logo4.png", alt="IMB Logo", class="spImages")
+
+    
+       
+        
