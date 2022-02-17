@@ -34,7 +34,7 @@ const Booking = mongoose.model('Booking', bookSchema);
 
 const app = express();
 
-const port = process.env.port || 80;
+const port = process.env.PORT || 80;
 
 app.use('/static',express.static('static'));
 app.use(express.urlencoded());
