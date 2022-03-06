@@ -30,7 +30,7 @@ setTimeout(() => {
 
         const xhr = new XMLHttpRequest();
 
-        xhr.open('POST', 'http://localhost/contact', true);
+        xhr.open('POST', 'https://puneet-dance-academy.herokuapp.com/contact', true);
 
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
